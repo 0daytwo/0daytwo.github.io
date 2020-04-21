@@ -1,0 +1,4 @@
+I"O<h2 id="tahap-1--verifikasi-kerawanan">Tahap 1 : Verifikasi Kerawanan</h2>
+<hr />
+<p>Untuk memverifikasi kerawanan aplikasi cukup dengan mencoba memberikan input yang dapat menyebabkan aplikasi crash. Saya akan menggunakan python untuk membantu membuat file inputan yang akan digunakan untuk memverifikasi kerawanan pada aplikasi.</p>
+:ET
