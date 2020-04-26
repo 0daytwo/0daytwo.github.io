@@ -25,7 +25,9 @@ Karena kerawanan pada aplikasi ini telah diverifikasi, selanjutnya saya mencoba 
 
 ![2000A]({{ site.baseurl }}/images/vuplayer2.49/2000A.png)
 
-Dapat dilihat bahwa input tersebut berhasil menimpa nilai pada register EIP dan EBP yang berarti return address pada fungsi tersebut juga telah berubah.
+Dapat dilihat bahwa input tersebut berhasil menimpa nilai pada register EIP dan EBP yang berarti return address pada fungsi tersebut juga telah berubah. Dengan demikian, stack pada memory program tersebut dapat digambarkan seperti di bawah ini:
+
+![Stack]({{ site.baseurl }}/images/vuplayer2.49/stack1.png)
 
 ## Tahap 3 : Menghitung panjang buffer
 -----

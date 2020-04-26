@@ -1,4 +1,4 @@
-I"p<h2 id="tahap-1--verifikasi-kerawanan">Tahap 1 : Verifikasi Kerawanan</h2>
+I"+q<h2 id="tahap-1--verifikasi-kerawanan">Tahap 1 : Verifikasi Kerawanan</h2>
 <hr />
 <p>Untuk memverifikasi kerawanan aplikasi cukup dengan mencoba memberikan input yang dapat menyebabkan aplikasi crash. Saya akan menggunakan python untuk membantu membuat file inputan yang akan digunakan untuk memverifikasi kerawanan pada aplikasi.</p>
 
@@ -19,7 +19,9 @@ Aplikasi pun berhasil dibuat crash dengan input ini.</p>
 
 <p><img src="/images/vuplayer2.49/2000A.png" alt="2000A" /></p>
 
-<p>Dapat dilihat bahwa input tersebut berhasil menimpa nilai pada register EIP dan EBP yang berarti return address pada fungsi tersebut juga telah berubah.</p>
+<p>Dapat dilihat bahwa input tersebut berhasil menimpa nilai pada register EIP dan EBP yang berarti return address pada fungsi tersebut juga telah berubah. Dengan demikian, stack pada memory program tersebut dapat digambarkan seperti di bawah ini:</p>
+
+<p><img src="/images/vuplayer2.49/stack1.png" alt="Stack" /></p>
 
 <h2 id="tahap-3--menghitung-panjang-buffer">Tahap 3 : Menghitung panjang buffer</h2>
 <hr />
